@@ -19,7 +19,7 @@ jobs:
       - name: instalar dependências
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requerements.txt
+          python -m pip install -r requeriments.txt
 
       - name: executar testes
         run: |
